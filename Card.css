@@ -1,0 +1,34 @@
+.card {
+  background-color: darkolivegreen;
+  border-radius: 5px;
+  max-width: 250px;
+  margin: 5px auto;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.error {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  z-index: 10;
+  background: rgba(50, 21, 21, 0.75);
+  color: white;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+header {
+  background-color: rgb(41, 35, 202);
+}
