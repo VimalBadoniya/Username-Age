@@ -6,15 +6,15 @@ const Error = (props) => {
       <div className="overlay"></div>
       <div className="error">
         <header>
-          <h2>{props.title}</h2>
+          <h2>{props.ErrorObj.title}</h2>
         </header>
 
         <div>
-          <p>{props.message}</p>
+          <p>{props.ErrorObj.message}</p>
         </div>
 
         <footer>
-          <button>Okay</button>
+          <button onClick={props.ButtonClick} className="error-button">Okay</button>
         </footer>
       </div>
     </div>

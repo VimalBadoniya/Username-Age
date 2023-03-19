@@ -1,15 +1,15 @@
 import "./App.css";
-import { ReactDOM, useState } from "react";
+import { useState } from "react";
 import React from "react";
 import UserForm from "./Components/UserForm";
 import AllUsers from "./Components/AllUsers";
 
 function App() {
   let [users, setUser] = useState([
-    { name: "Vimal", age: 25 },
-    { name: "Aarti", age: 26 },
-    { name: "Pintu", age: 52 },
-    { name: "Anjali", age: 23 },
+    { name: "Vimal", age: 25 , college : "IIT Delhi" },
+    { name: "Aarti", age: 26 , college : "IIM Indore" },
+    { name: "Pintu", age: 23  , college : "IIT Madras"},
+    { name: "Anjali", age: 24 , college : "IIT Indore"},
   ]);
 
   const AddNewUser = (newUser) => {

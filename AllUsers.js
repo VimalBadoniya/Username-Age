@@ -1,4 +1,4 @@
-import '../UI/Card.css'
+import "../UI/Card.css";
 
 let k = 1000;
 const getKey = () => {
@@ -11,7 +11,7 @@ const AllUsers = (props) => {
       {props.data.map((user) => {
         return (
           <li className="card" key={getKey()}>
-            {user.name} is {user.age} years old
+            Name - {user.name} , Age - {user.age} , College - {user.college}
           </li>
         );
       })}
